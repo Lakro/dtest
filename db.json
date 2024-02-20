@@ -1,7 +1,7 @@
 {
     "blog": [
         {
-            "id": 1,
+            "id": "home",
             "routerpath": "/",
             "routername": "home",
             "title": "Home: Best Highlights arround",
@@ -9,13 +9,14 @@
             "image": "https://picsum.photos/800/200"
         },
         {
-            "id": 2,
+            "id": "about",
             "routerpath": "/about",
             "routername": "about",
             "title": "About us: We are looking for Highlights",
             "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse natus magnam rerum ducimus eos quaerat, beatae repudiandae fugit dicta in harum unde. Corporis vel repellendus adipisci debitis, voluptates amet iste?",
             "image": "https://picsum.photos/id/111/800/200.jpg"
         }
+
     ],
     "events": [
         {
