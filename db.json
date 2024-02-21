@@ -26,6 +26,56 @@
         }
 
     ],
+    "highlights": [
+        {
+            "id": 1,
+            "name": "Circus Surano",
+            "heading": "Greatest Show ever",
+            "teaser": "Sit sit ut magna ad aliqua id nisi. Reprehenderit ex proident officia occaecat.",
+            "description": "Reprehenderit ex excepteur enim consectetur. Velit commodo nulla labore aliqua ut cillum minim sint sit incididunt. Id nisi irure voluptate irure proident deserunt. Mollit excepteur id eiusmod consectetur aute consequat et nulla duis. Adipisicing commodo Lorem occaecat velit amet eu cupidatat. Sunt cillum commodo magna cupidatat ipsum deserunt adipisicing elit. Fugiat minim nisi adipisicing laborum et.",
+            "phone": "12345 -6789012",
+            "mail": "surano@mailer.de",
+            "street": "Circus Street 23",
+            "zip": "76543",
+            "city": "Greebing"
+        },
+        {
+            "id": 2,
+            "name": "Thermal Spring Agatha",
+            "heading": "The power of native whater",
+            "teaser": "Cillum ullamco dolore et minim est laborum laborum proident ex voluptate commodo aliquip adipisicing in.",
+            "description": "Nulla eu adipisicing ut labore occaecat et dolore nulla dolore laboris sint ullamco. Pariatur aute quis labore consequat culpa consectetur in in sint excepteur incididunt cillum aute velit. Consectetur amet adipisicing non quis non. Anim anim aliqua Lorem non excepteur. Pariatur qui veniam culpa tempor mollit consequat eiusmod dolore incididunt. Veniam veniam magna consequat culpa ad sit occaecat quis.",
+            "phone": "12345 -6789012",
+            "mail": "thermal-info@agatha.de",
+            "street": "Agatha Place 1",
+            "zip": "34567",
+            "city": "Conehill"
+        },
+        {
+            "id": 3,
+            "name": "Three Tower Castle",
+            "heading": "Experienc cultur of Middle Age",
+            "teaser": "Tempor ex laboris anim qui. Do eiusmod enim amet non aliqua sunt ullamco ex amet.",
+            "description": "Adipisicing aliqua eu occaecat deserunt do excepteur irure laboris ex est eu cupidatat deserunt. Esse amet eu reprehenderit ut veniam qui sit laboris occaecat non aute ipsum. Do aliquip fugiat sint tempor do non minim in nisi ex esse. Ex sint veniam magna eu enim et dolor reprehenderit. Veniam id sunt dolor eiusmod sunt. Esse ut aute eu sint. Labore culpa sint non aliqua.",
+            "phone": "12345 -6789012",
+            "mail": "3t_castle@3tc.de",
+            "street": "Knight Hill 33",
+            "zip": "9874",
+            "city": "Bredding"
+        },
+        {
+            "id": 4,
+            "name": "Pleasure Beach",
+            "heading": "Whater Front to the lake",
+            "teaser": "Ex ex cupidatat tempor labore incididunt enim sunt ullamco deserunt.",
+            "description": "Veniam fugiat duis velit dolore aliquip. Minim reprehenderit adipisicing exercitation velit nulla culpa ipsum consequat reprehenderit ad fugiat nostrud do voluptate. Minim mollit nulla anim sunt non excepteur laborum officia aliquip officia occaecat nulla nulla magna. Nulla commodo eu nostrud in irure culpa ex eiusmod quis anim incididunt sint aliqua. Excepteur ex minim cillum commodo id do enim deserunt enim culpa.",
+            "phone": "12345 -6789012",
+            "mail": "touris@pleasure.de",
+            "street": "Sunny Promenade 33",
+            "zip": "778899",
+            "city": "Port Lake"
+        }
+    ],
     "events": [
         {
             "id": 123,
