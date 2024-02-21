@@ -15,6 +15,14 @@
             "title": "About us: We are looking for Highlights",
             "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse natus magnam rerum ducimus eos quaerat, beatae repudiandae fugit dicta in harum unde. Corporis vel repellendus adipisci debitis, voluptates amet iste?",
             "image": "https://picsum.photos/id/111/800/200.jpg"
+        },
+        {
+            "id": "contact",
+            "routerpath": "/contact",
+            "routername": "contact",
+            "title": "Visit us at the Eastern Seas",
+            "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse natus magnam rerum ducimus eos quaerat, beatae repudiandae fugit dicta in harum unde. Corporis vel repellendus adipisci debitis, voluptates amet iste?",
+            "image": "https://picsum.photos/id/58/800/200.jpg"
         }
 
     ],
