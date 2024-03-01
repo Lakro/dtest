@@ -1,354 +1,201 @@
 {
+    "blog": [
+        {
+            "id": "home",
+            "routerpath": "/",
+            "routername": "home",
+            "title": "Home: Best Highlights arround",
+            "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse natus magnam rerum ducimus eos quaerat, beatae repudiandae fugit dicta in harum unde. Corporis vel repellendus adipisci debitis, voluptates amet iste?",
+            "image": "https://picsum.photos/id/216/800/200"
+        },
+        {
+            "id": "about",
+            "routerpath": "/about",
+            "routername": "about",
+            "title": "About us: We are looking for Highlights",
+            "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse natus magnam rerum ducimus eos quaerat, beatae repudiandae fugit dicta in harum unde. Corporis vel repellendus adipisci debitis, voluptates amet iste?",
+            "image": "https://picsum.photos/id/111/800/200.jpg"
+        },
+        {
+            "id": "contact",
+            "routerpath": "/contact",
+            "routername": "contact",
+            "title": "Visit us at the Eastern Seas",
+            "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse natus magnam rerum ducimus eos quaerat, beatae repudiandae fugit dicta in harum unde. Corporis vel repellendus adipisci debitis, voluptates amet iste?",
+            "image": "https://picsum.photos/id/58/800/200.jpg"
+        }
+
+    ],
     "books": [
+		{
+			"id": 1,
+			"title": "Dormouse into the.",
+			"author": "Ahmed Littel",
+			"genre": "Reprehenderit",
+			"description": "Pennyworth only of beautiful Soup? Pennyworth only of beautiful Soup? Beau--ootiful Soo--oop! Soo--oop of the bill, \"French, music, AND WASHING--extra.\"' 'You couldn't have wanted it much,' said the.",
+			"isbn": "9786832348411",
+			"image": "http://placeimg.com/480/640/any",
+			"published": "2010-09-25",
+			"publisher": "Accusamus Eaque"
+		},
+		{
+			"id": 2,
+			"title": "King replied. Here.",
+			"author": "Melvina Thompson",
+			"genre": "Impedit",
+			"description": "Alice dodged behind a great interest in questions of eating and drinking. 'They lived on treacle,' said the cook. 'Treacle,' said the Hatter, 'when the Queen was silent. The King looked anxiously.",
+			"isbn": "9792018408961",
+			"image": "http://placeimg.com/480/640/any",
+			"published": "2008-09-27",
+			"publisher": "Quos Qui"
+		},
+		{
+			"id": 3,
+			"title": "King. (The jury.",
+			"author": "Webster Zemlak",
+			"genre": "Molestiae",
+			"description": "WHAT?' said the Gryphon. 'We can do without lobsters, you know. But do cats eat bats, I wonder?' Alice guessed in a large mustard-mine near here. And the moral of that is--\"Oh, 'tis love, 'tis love.",
+			"isbn": "9783340290546",
+			"image": "http://placeimg.com/480/640/any",
+			"published": "2009-03-25",
+			"publisher": "Expedita Eos"
+		},
+		{
+			"id": 4,
+			"title": "Duchess asked.",
+			"author": "Buster Feest",
+			"genre": "Error",
+			"description": "White Rabbit returning, splendidly dressed, with a growl, And concluded the banquet--] 'What IS the fun?' said Alice. 'Of course not,' said the March Hare said in a very small cake, on which the.",
+			"isbn": "9799362871434",
+			"image": "http://placeimg.com/480/640/any",
+			"published": "1983-07-15",
+			"publisher": "Quidem Sequi"
+		},
+		{
+			"id": 5,
+			"title": "Duchess; 'and most.",
+			"author": "Bettie Kozey",
+			"genre": "Voluptatem",
+			"description": "WAS a narrow escape!' said Alice, quite forgetting in the pool of tears which she had quite a large kitchen, which was sitting on the top of his great wig.' The judge, by the pope, was soon left.",
+			"isbn": "9794198966361",
+			"image": "http://placeimg.com/480/640/any",
+			"published": "2002-08-22",
+			"publisher": "Consequatur Eum"
+		},
+		{
+			"id": 6,
+			"title": "Alice glanced.",
+			"author": "Teresa Buckridge",
+			"genre": "Illum",
+			"description": "There was no longer to be a footman in livery, with a kind of authority among them, called out, 'Sit down, all of them say, 'Look out now, Five! Don't go splashing paint over me like a candle. I.",
+			"isbn": "9790726042934",
+			"image": "http://placeimg.com/480/640/any",
+			"published": "2009-03-28",
+			"publisher": "Id Doloremque"
+		},
+		{
+			"id": 7,
+			"title": "King, with an M?'.",
+			"author": "Kaelyn Beier",
+			"genre": "Maxime",
+			"description": "Rabbit came up to the Knave 'Turn them over!' The Knave shook his grey locks, 'I kept all my life, never!' They had a head unless there was the Cat again, sitting on a little way off, and found.",
+			"isbn": "9789838698818",
+			"image": "http://placeimg.com/480/640/any",
+			"published": "1978-02-12",
+			"publisher": "Et Voluptatem"
+		},
+		{
+			"id": 8,
+			"title": "Rabbit whispered.",
+			"author": "Kale Kirlin",
+			"genre": "Dolorum",
+			"description": "Alice. 'Of course not,' said the Lory positively refused to tell me who YOU are, first.' 'Why?' said the Lory hastily. 'I don't know what you like,' said the White Rabbit, who was gently brushing.",
+			"isbn": "9791546380091",
+			"image": "http://placeimg.com/480/640/any",
+			"published": "1976-07-21",
+			"publisher": "Nulla Eveniet"
+		}
+    ],
+    "highlights": [
         {
             "id": 1,
-            "title": "Dormouse into the.",
-            "author": "Ahmed Littel"
+            "name": "Circus Surano",
+            "heading": "Greatest Show ever",
+            "teaser": "Sit sit ut magna ad aliqua id nisi. Reprehenderit ex proident officia occaecat.",
+            "description": "Reprehenderit ex excepteur enim consectetur. Velit commodo nulla labore aliqua ut cillum minim sint sit incididunt. Id nisi irure voluptate irure proident deserunt. Mollit excepteur id eiusmod consectetur aute consequat et nulla duis. Adipisicing commodo Lorem occaecat velit amet eu cupidatat. Sunt cillum commodo magna cupidatat ipsum deserunt adipisicing elit. Fugiat minim nisi adipisicing laborum et.",
+            "phone": "12345 -6789012",
+            "mail": "surano@mailer.de",
+            "street": "Circus Street 23",
+            "zip": "76543",
+            "city": "Greebing"
         },
         {
             "id": 2,
-            "title": "King replied. Here.",
-            "author": "Melvina Thompson"
+            "name": "Thermal Spring Agatha",
+            "heading": "The power of native whater",
+            "teaser": "Cillum ullamco dolore et minim est laborum laborum proident ex voluptate commodo aliquip adipisicing in.",
+            "description": "Nulla eu adipisicing ut labore occaecat et dolore nulla dolore laboris sint ullamco. Pariatur aute quis labore consequat culpa consectetur in in sint excepteur incididunt cillum aute velit. Consectetur amet adipisicing non quis non. Anim anim aliqua Lorem non excepteur. Pariatur qui veniam culpa tempor mollit consequat eiusmod dolore incididunt. Veniam veniam magna consequat culpa ad sit occaecat quis.",
+            "phone": "12345 -6789012",
+            "mail": "thermal-info@agatha.de",
+            "street": "Agatha Place 1",
+            "zip": "34567",
+            "city": "Conehill"
         },
         {
             "id": 3,
-            "title": "King. (The jury.",
-            "author": "Webster Zemlak"
+            "name": "Three Tower Castle",
+            "heading": "Experience culture of the Middle Age",
+            "teaser": "Tempor ex laboris anim qui. Do eiusmod enim amet non aliqua sunt ullamco ex amet.",
+            "description": "Adipisicing aliqua eu occaecat deserunt do excepteur irure laboris ex est eu cupidatat deserunt. Esse amet eu reprehenderit ut veniam qui sit laboris occaecat non aute ipsum. Do aliquip fugiat sint tempor do non minim in nisi ex esse. Ex sint veniam magna eu enim et dolor reprehenderit. Veniam id sunt dolor eiusmod sunt. Esse ut aute eu sint. Labore culpa sint non aliqua.",
+            "phone": "12345 -6789012",
+            "mail": "3t_castle@3tc.de",
+            "street": "Knight Hill 33",
+            "zip": "9874",
+            "city": "Bredding"
         },
         {
             "id": 4,
-            "title": "Duchess asked.",
-            "author": "Buster Feest"
-        },
-        {
-            "id": 5,
-            "title": "Duchess; 'and most.",
-            "author": "Bettie Kozey"
-        },
-        {
-            "id": 6,
-            "title": "Alice glanced.",
-            "author": "Teresa Buckridge"
-        },
-        {
-            "id": 7,
-            "title": "King, with an M?'.",
-            "author": "Kaelyn Beier"
-        },
-        {
-            "id": 8,
-            "title": "Rabbit whispered.",
-            "author": "Kale Kirlin"
-        },
-        {
-            "id": 9,
-            "title": "Laughing and.",
-            "author": "Tommie Cormier"
-        },
-        {
-            "id": 10,
-            "title": "For, you see, so.",
-            "author": "Mossie Jerde"
-        },
-        {
-            "id": 11,
-            "title": "Dormouse,' the.",
-            "author": "Annalise Hammes"
-        },
-        {
-            "id": 12,
-            "title": "The King turned.",
-            "author": "Domenick Waters"
-        },
-        {
-            "id": 13,
-            "title": "Duchess, 'and.",
-            "author": "Ryley Rutherford"
-        },
-        {
-            "id": 14,
-            "title": "Why, there's.",
-            "author": "Annamarie Larson"
-        },
-        {
-            "id": 15,
-            "title": "Queen's shrill.",
-            "author": "Caitlyn Streich"
-        },
-        {
-            "id": 16,
-            "title": "Heads below!' (a.",
-            "author": "Natasha Bartell"
-        },
-        {
-            "id": 17,
-            "title": "BEST butter,' the.",
-            "author": "Merle Rodriguez"
-        },
-        {
-            "id": 18,
-            "title": "It did so indeed.",
-            "author": "Efren Block"
-        },
-        {
-            "id": 19,
-            "title": "Alice gently.",
-            "author": "Wilma Haag"
-        },
-        {
-            "id": 20,
-            "title": "I must go by the.",
-            "author": "Chaz Borer"
-        },
-        {
-            "id": 21,
-            "title": "Alice, rather.",
-            "author": "Zelda Labadie"
-        },
-        {
-            "id": 22,
-            "title": "Lobster Quadrille.",
-            "author": "Rachel Blick"
-        },
-        {
-            "id": 23,
-            "title": "NO mistake about.",
-            "author": "Nickolas Zboncak"
-        },
-        {
-            "id": 24,
-            "title": "The further off.",
-            "author": "Bryon McCullough"
-        },
-        {
-            "id": 25,
-            "title": "I know!' exclaimed.",
-            "author": "Corrine Abernathy"
-        },
-        {
-            "id": 26,
-            "title": "Ann! Mary Ann!'.",
-            "author": "Armani Okuneva"
-        },
-        {
-            "id": 27,
-            "title": "She waited for.",
-            "author": "Felix Kessler"
-        },
-        {
-            "id": 28,
-            "title": "WHATEVER?'.",
-            "author": "Arno Schowalter"
-        },
-        {
-            "id": 29,
-            "title": "Hardly knowing.",
-            "author": "Greyson Parker"
-        },
-        {
-            "id": 30,
-            "title": "May it won't be.",
-            "author": "Aiden Metz"
-        },
-        {
-            "id": 31,
-            "title": "I'm going to begin.",
-            "author": "Verla Walsh"
-        },
-        {
-            "id": 32,
-            "title": "Mock Turtle.",
-            "author": "Candelario Stoltenberg"
-        },
-        {
-            "id": 33,
-            "title": "In a minute or.",
-            "author": "Sophie Lesch"
-        },
-        {
-            "id": 34,
-            "title": "Queen, tossing her.",
-            "author": "Javon Marquardt"
-        },
-        {
-            "id": 35,
-            "title": "Mock Turtle said.",
-            "author": "Dane Schiller"
-        },
-        {
-            "id": 36,
-            "title": "Come and help me.",
-            "author": "Darby Klein"
-        },
-        {
-            "id": 37,
-            "title": "Queen in a very.",
-            "author": "Shaylee Beatty"
-        },
-        {
-            "id": 38,
-            "title": "And the moral of.",
-            "author": "Bret Rau"
-        },
-        {
-            "id": 39,
-            "title": "Alice waited.",
-            "author": "Maia Nicolas"
-        },
-        {
-            "id": 40,
-            "title": "English,' thought.",
-            "author": "Adrienne Jacobson"
-        },
-        {
-            "id": 41,
-            "title": "Alice remarked.",
-            "author": "Kellie Tillman"
-        },
-        {
-            "id": 42,
-            "title": "I am! But I'd.",
-            "author": "Raoul Kiehn"
-        },
-        {
-            "id": 43,
-            "title": "And the muscular.",
-            "author": "Vickie Reilly"
-        },
-        {
-            "id": 44,
-            "title": "Alice, 'it's very.",
-            "author": "Sasha Weber"
-        },
-        {
-            "id": 45,
-            "title": "What happened to.",
-            "author": "Rita Beier"
-        },
-        {
-            "id": 46,
-            "title": "Duchess.",
-            "author": "Eusebio Lang"
-        },
-        {
-            "id": 47,
-            "title": "There was.",
-            "author": "Geraldine Cartwright"
-        },
-        {
-            "id": 48,
-            "title": "I shall never get.",
-            "author": "Claudia Schuppe"
-        },
-        {
-            "id": 49,
-            "title": "I've nothing to.",
-            "author": "Gregory Hand"
-        },
-        {
-            "id": 50,
-            "title": "While she was.",
-            "author": "Jessy Rodriguez"
-        },
-        {
-            "id": 51,
-            "title": "I wish I hadn't.",
-            "author": "Rosa Dooley"
-        },
-        {
-            "id": 52,
-            "title": "Alice indignantly.",
-            "author": "Mallory Walsh"
-        },
-        {
-            "id": 53,
-            "title": "Alice with one of.",
-            "author": "Abe Koss"
-        },
-        {
-            "id": 54,
-            "title": "I wonder if I've.",
-            "author": "Andreane McCullough"
-        },
-        {
-            "id": 55,
-            "title": "Gryphon never.",
-            "author": "Danika Lindgren"
-        },
-        {
-            "id": 56,
-            "title": "INSIDE, you might.",
-            "author": "Ladarius Goodwin"
-        },
-        {
-            "id": 57,
-            "title": "As there seemed to.",
-            "author": "Jaden Skiles"
-        },
-        {
-            "id": 58,
-            "title": "Lory positively.",
-            "author": "Cesar Boehm"
-        },
-        {
-            "id": 59,
-            "title": "Alice did not.",
-            "author": "Junior Sporer"
-        },
-        {
-            "id": 60,
-            "title": "I wonder if I.",
-            "author": "Elsie Runolfsdottir"
-        },
-        {
-            "id": 61,
-            "title": "I don't want to.",
-            "author": "Pierce Hills"
-        },
-        {
-            "id": 62,
-            "title": "Alice, 'it'll.",
-            "author": "Hailee Lueilwitz"
-        },
-        {
-            "id": 63,
-            "title": "Alice was more.",
-            "author": "Cordelia Bergnaum"
-        },
-        {
-            "id": 64,
-            "title": "Gryphon, and the.",
-            "author": "Favian Kiehn"
-        },
-        {
-            "id": 65,
-            "title": "I suppose?' said.",
-            "author": "Shany Rutherford"
-        },
-        {
-            "id": 66,
-            "title": "ESQ. HEARTHRUG.",
-            "author": "Maritza Fay"
-        },
-        {
-            "id": 67,
-            "title": "Dormouse said--'.",
-            "author": "Deion Daugherty"
-        },
-        {
-            "id": 68,
-            "title": "I ever heard!'.",
-            "author": "Kariane Kris"
-        },
-        {
-            "id": 69,
-            "title": "I said \"What.",
-            "author": "Kendra Feeney"
-        },
-        {
-            "id": 70,
-            "title": "Alice quite hungry.",
-            "author": "Miller McLaughlin"
+            "name": "Pleasure Beach",
+            "heading": "Whater Front to the lake",
+            "teaser": "Ex ex cupidatat tempor labore incididunt enim sunt ullamco deserunt. Ullamco adipisicing adipisicing.",
+            "description": "Veniam fugiat duis velit dolore aliquip. Minim reprehenderit adipisicing exercitation velit nulla culpa ipsum consequat reprehenderit ad fugiat nostrud do voluptate. Minim mollit nulla anim sunt non excepteur laborum officia aliquip officia occaecat nulla nulla magna. Nulla commodo eu nostrud in irure culpa ex eiusmod quis anim incididunt sint aliqua. Excepteur ex minim cillum commodo id do enim deserunt enim culpa.",
+            "phone": "12345 -6789012",
+            "mail": "touris@pleasure.de",
+            "street": "Sunny Promenade 33",
+            "zip": "778899",
+            "city": "Port Lake"
+        }
+    ],
+    "events": [
+        {
+            "id": 123,
+            "category": "animal welfare",
+            "title": "Cat Adoption Day",
+            "description": "Find your new feline friend at this event.",
+            "location": "Meow Town",
+            "date": "January 28, 2022",
+            "time": "12:00",
+            "organizer": "Kat Laydee"
+        },
+        {
+            "id": 456,
+            "category": "food",
+            "title": "Community Gardening",
+            "description": "Join us as we tend to the community edible plants.",
+            "location": "Flora City",
+            "date": "March 14, 2022",
+            "time": "10:00",
+            "organizer": "Fern Pollin"
+        },
+        {
+            "id": 789,
+            "category": "sustainability",
+            "title": "Beach Cleanup",
+            "description": "Help pick up trash along the shore.",
+            "location": "Playa Del Carmen",
+            "date": "July 22, 2022",
+            "time": "11:00",
+            "organizer": "Carey Wales"
         }
     ]
 }
